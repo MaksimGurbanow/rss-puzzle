@@ -20,7 +20,7 @@ export default class Controllers extends BaseComponent<HTMLDivElement> {
   private pronounciationButton: PronounciationButton;
 
   private icon: Icon;
-  
+
   private backgroundToggleButton: BackgroundToggleButton;
 
   constructor(
