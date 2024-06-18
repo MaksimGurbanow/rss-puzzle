@@ -1,0 +1,14 @@
+.game__board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 0 50px;
+  width: 100%;
+}
+
+.block__container {
+  flex: 1;
+}

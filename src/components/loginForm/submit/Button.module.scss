@@ -1,0 +1,17 @@
+.login__button {
+  font-size: 2em;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 1px;
+  opacity: 0.4;
+  background: #045e29;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: not-allowed;
+}
+
+.open {
+  opacity: 1;
+  cursor: pointer;
+}

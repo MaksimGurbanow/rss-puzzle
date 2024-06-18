@@ -1,0 +1,10 @@
+.sequence {
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 40px;
+  // max-width: 400px;
+  background: #fff;
+}

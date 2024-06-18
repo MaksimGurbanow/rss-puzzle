@@ -1,0 +1,14 @@
+.button {
+  font-size: 1.5em;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 1px;
+  opacity: 0.4;
+  border: none;
+  border-radius: 20px;
+  padding: 3px;
+
+  &:hover {
+    opacity: 1;
+  }
+}

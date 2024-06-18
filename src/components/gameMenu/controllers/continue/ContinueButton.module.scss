@@ -1,0 +1,15 @@
+.continue__button {
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #a4512a;
+  opacity: 0.4;
+  cursor: not-allowed;
+  display: none;
+}
+
+.open {
+  opacity: 1;
+  cursor: pointer;
+  display: flex;
+}

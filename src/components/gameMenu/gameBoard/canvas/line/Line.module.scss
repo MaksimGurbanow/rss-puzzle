@@ -1,0 +1,13 @@
+.line {
+  width: 100%;
+  height: calc(100% / var(--line-count));
+  border-bottom: 1px solid #887777;
+  box-sizing: border-box;
+  flex-direction: row;
+  display: flex;
+  justify-content: start;
+}
+
+.container {
+  flex: 1;
+}

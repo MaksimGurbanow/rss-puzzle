@@ -1,0 +1,60 @@
+{
+  "name": "maksimgurbanow-jsfe2023q4",
+  "version": "1.0.0",
+  "description": "RSS puzzle project",
+  "main": "index.ts",
+  "scripts": {
+    "prebuild": "npx eslint .",
+    "build": "webpack",
+    "start:dev": "webpack serve --env mode=development",
+    "start:build": "webpack --env mode=production",
+    "lint": "eslint .",
+    "format": "prettier . --write",
+    "ci:format": "prettier . --check",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/maksimgurbanow-JSFE2023Q4.git#rss-puzzle"
+  },
+  "keywords": [
+    "puzzle"
+  ],
+  "author": "Maksim Gurbanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/maksimgurbanow-JSFE2023Q4/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/maksimgurbanow-JSFE2023Q4/tree/rss-puzzle#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/webpack": "^5.28.5",
+    "@types/webpack-dev-server": "^4.7.2",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.2.0",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "husky": "^9.0.11",
+    "js-loader": "^0.1.1",
+    "mini-css-extract-plugin": "^2.8.1",
+    "prettier": "3.2.5",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^7.1.1",
+    "validate-branch-name": "^1.3.0",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  }
+}
