@@ -105,8 +105,14 @@ export default class GameBoard extends BaseComponent<HTMLDivElement> {
       const { target } = e;
       if (target instanceof HTMLElement) {
         if (this.draggedElem instanceof HTMLElement) {
-          target.appendChild(this.draggedElem);
-          this.draggedElem = null;
+          if (
+            !this.wordSequence.getContainers().find(
+              (container) => container.getElement() === target,
+            )
+          ) {
+            target.appendChild(this.draggedElem);
+            this.draggedElem = null;
+          }
         }
       }
     }

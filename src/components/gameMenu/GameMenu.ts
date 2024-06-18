@@ -34,19 +34,11 @@ export default class GameMenu extends BaseComponent {
       this.enableCheckButton.bind(this),
       this.controllers.animate.bind(this.controllers),
     );
-    const { levelData, words } = gameParams;
-    this.gameBoard = new GameBoard(
-      levelData,
-      words,
-      this.enableCheckButton.bind(this),
-      this.controllers.animate.bind(this.controllers),
-    );
 
     this.appendChildren(this.controllers, this.gameBoard);
   }
 
   hideBackground() {
-    console.log(this)
     this.gameBoard.hideBackground();
   }
 

@@ -1,12 +1,12 @@
 {
-  "name": "maksimgurbanow-jsfe2023q4",
+  "name": "rss-puzzles",
   "version": "1.0.0",
   "description": "RSS puzzle project",
   "main": "index.ts",
   "scripts": {
     "prebuild": "npx eslint .",
     "build": "webpack",
-    "start:dev": "webpack serve --env mode=development",
+    "dev": "webpack serve --env mode=development",
     "start:build": "webpack --env mode=production",
     "lint": "eslint .",
     "format": "prettier . --write",

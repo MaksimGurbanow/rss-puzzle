@@ -23,7 +23,7 @@ export default class WordSequence extends BaseComponent<HTMLDivElement> {
     return this.containers;
   }
 
-  update(words: { order: number, element: Word }[], dropCallback: (e: DragEvent) => void) {
+  public update(words: { order: number, element: Word }[], dropCallback: (e: DragEvent) => void) {
     this.containers = [];
 
     if (this.element) {
